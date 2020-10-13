@@ -7,6 +7,15 @@
   <a href="https://github.com/xkcoding/simple-http/blob/master/LICENSE" target="_blank"><img alt="LICENSE" src="https://img.shields.io/github/license/xkcoding/simple-http.svg"/></a>
 </p>
 
+```xml
+<!-- 修复 HttpClientImpl timeout 配置失效问题, 作者(xkcoding) 更新太慢, 自己先上传一个, 望作者见谅. -->
+<dependency>
+    <groupId>top.dcenter</groupId>
+    <artifactId>xkcoding-simple-http</artifactId>
+    <version>1.0.3</version>
+</dependency>
+```
+
 ## 简介
 
 > 抽取一个简单 HTTP 的通用接口，底层实现根据具体引入依赖指定。
